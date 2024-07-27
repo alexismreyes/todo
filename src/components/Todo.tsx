@@ -36,14 +36,26 @@ const Todo =  () =>{
             }
 
             {
-                tasks.length>0 && 
+                tasks.length>0 && (
+                  
                     tasks.map((task,index)=>(
+                        <>
                         <div key={index} className="added-field" onClick={() => deleteTask(index)}>
                         {task}
-                        </div>
-                    ))               
+                        </div>                        
+                        </>
+                    ))                     
+                    
+                )
+                                  
             }            
         </div>
+
+        {
+            tasks.length>0 &&
+            <div className="div-center"><span className="red-alert">Click task to delete!!!</span></div>
+        }
+        
         </>
     )
 }

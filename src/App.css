@@ -29,8 +29,16 @@ html, body{
     width: auto;
     border-radius: 5px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .added-field:hover{
     background-color: #FFC0CB; 
+}
+
+
+.red-alert{
+    color: red;
+    font-weight: bold;
+    margin: auto;
 }
