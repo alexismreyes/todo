@@ -1,6 +1,6 @@
 ### SIMPLE REACT TO-DO LIST 
 ***
-React to-do list in typescript
+The most simple React to-do list in typescript that you will find
 
 ***
 1) git clone
