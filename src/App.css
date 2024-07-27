@@ -1,0 +1,36 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #65CCFD;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.div-center{
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+    margin-top: 2rem;   
+}
+
+.button-blue{
+    background-color: #0166FB;   
+    margin-top: 2rem;
+    color: white;
+    font-size: 15px;
+    margin-left: .5rem;
+}
+
+.added-field{
+    background-color: #B5E6FE;
+    margin: auto;
+    margin-top: 1rem;
+    min-width: 165px;
+    width: auto;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.added-field:hover{
+    background-color: #FFC0CB; 
+}
